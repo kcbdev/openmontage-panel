@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Node
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Test/IDE
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project outputs
+output/
+pipeline/
+projects/
+corpus/
+
+# Agent skills
+skills-lock.json
+
+# Docker (individual resources, no compose)
+docker-compose.prod.yml
+
+# Root-level duplicate structure
+Panel/
+
+# Agent configs
+.opencommit
+opencommit.config.json

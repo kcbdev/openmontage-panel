@@ -1,0 +1,16 @@
+fastapi[standard]
+sqlalchemy[asyncio]
+alembic
+psycopg[binary]
+langgraph[postgres]
+redis
+watchdog
+pyyaml
+cryptography
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt<4.1
+python-multipart
+minio
+slowapi
+ruff
