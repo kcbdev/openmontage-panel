@@ -1,6 +1,7 @@
 fastapi[standard]
 sqlalchemy[asyncio]
 alembic
+asyncpg
 psycopg[binary]
 langgraph[postgres]
 redis
