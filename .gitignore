@@ -38,8 +38,8 @@ Thumbs.db
 # Project outputs
 output/
 pipeline/
-projects/
 corpus/
+!mission-control-web/src/app/projects/
 
 # Agent skills
 skills-lock.json
